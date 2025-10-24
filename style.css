@@ -357,7 +357,11 @@ nav ul li .btn:hover{
 
         display: flex;
         gap: 5px;
-      }
+        position: relative;
+        top: 250px;
+        left: 200px;    
+
+              }
 
     
 
