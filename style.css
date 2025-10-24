@@ -291,7 +291,7 @@ nav ul li .btn:hover{
         flex-direction: column;
         position: relative;
         left: 250px;
-        top: 50px;
+        top: 150px;
     }
 
     
@@ -351,6 +351,12 @@ nav ul li .btn:hover{
       @keyframes example {
         from {background-color: rgb(9, 6, 6);}
         to {background-color:  greenyellow;}
+      }
+
+      .socials{
+
+        display: flex;
+        gap: 5px;
       }
 
     
