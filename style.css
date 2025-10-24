@@ -358,10 +358,17 @@ nav ul li .btn:hover{
         display: flex;
         gap: 5px;
         position: relative;
-        top: 250px;
+        top: 200px;
         left: 200px;    
 
               }
+
+        .socialsp{
+            font-size: 30px;
+            color: black;
+            margin-right: 10px;
+
+        }      
 
     
 
