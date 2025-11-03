@@ -1,11 +1,10 @@
-/* Base Reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* General Body Styling */
 body {
   font-family: 'Poppins', sans-serif;
   background: #f8f8f8;
@@ -13,7 +12,9 @@ body {
   line-height: 1.6;
 }
 
-/* Header and Navigation */
+
+   /* Header & Navigation */
+
 header {
   background: #fff;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -37,8 +38,9 @@ nav ul li {
 
 .logo {
   margin-right: auto;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: #222;
+  font-weight: bold;
 }
 
 a {
@@ -51,7 +53,8 @@ a:hover {
   color: #007bff;
 }
 
-/* Button Styling */
+/* Buttons */
+
 .btn,
 button {
   padding: 0.6rem 1.2rem;
@@ -69,7 +72,9 @@ button:hover {
   background: #0056b3;
 }
 
-/* Hero Section */
+
+   /* Hero Section */
+
 section {
   text-align: center;
   padding: 3rem 1rem;
@@ -98,7 +103,9 @@ section {
   font-size: 1.1rem;
 }
 
-/* Socials Section */
+
+   /* Socials Section */
+
 .socials {
   display: flex;
   align-items: center;
@@ -113,13 +120,12 @@ section {
   color: #222;
 }
 
-/* -----------------------------------
-   Tablet Responsive Styles (768 x 642)
------------------------------------ */
+
+   /* Tablet Responsive (≤ 768px) */
 
 @media screen and (max-width: 768px) {
   
-  /* Navigation Adjustments */
+  /* Navigation */
   nav ul {
     flex-direction: column;
     align-items: center;
@@ -165,5 +171,69 @@ section {
     width: 50px;
   }
 }
-/* -----------------------------------
-   Mobile Responsive Styles (425 x 375)
+
+
+   /* Mobile Responsive (≤ 425px) */
+
+@media screen and (max-width: 425px) {
+
+  /* Header */
+  header {
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+  }
+
+  nav ul li {
+    margin: 0.4rem 0;
+  }
+
+  .logo {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+  }
+
+  /* Hero Section */
+  section {
+    padding: 2rem 0.8rem;
+  }
+
+  .container h1 {
+    font-size: 1.8rem;
+  }
+
+  .container p:first-child {
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+  }
+
+  .container p:last-child {
+    font-size: 0.9rem;
+  }
+
+  .container button {
+    margin-top: 1rem;
+    padding: 0.7rem 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  /* Socials */
+  .socials {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 1.5rem;
+  }
+
+  .socialsp {
+    font-size: 1rem;
+  }
+
+  .socials img {
+    height: 40px;
+    width: 40px;
+  }
+}
